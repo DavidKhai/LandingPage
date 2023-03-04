@@ -1,0 +1,5 @@
+<nav class="menus">
+  <ul *ngFor="let menu of menus">
+    <li (click)="redirect(menu?.id)">{{ menu?.name }}</li>
+  </ul>
+</nav>

@@ -1,0 +1,13 @@
+:host {
+  .menus {
+
+    ul {
+      display: inline-block;
+      width: auto;
+
+      li {
+        display: inherit;
+      }
+    }
+  }
+}

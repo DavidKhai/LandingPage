@@ -1,0 +1,27 @@
+<div class="container-fluid menu">
+  <div class="row">
+    <div class="layout-container">
+      <app-menu></app-menu>
+    </div>
+  </div>
+</div>
+<div class="outter container-fluid" id="top">
+  <div class="row min-h-full layout-inner">
+    <div class="col-12">
+      <div class="layout-container height ps" [perfectScrollbar]="{}">
+        <div class="body-container layout-inner">
+          <div class="body-content">
+            <router-outlet></router-outlet>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="layout-title">LandingPage Systems ©2023</div>
+            <div class="layout-version">
+              <!-- {{version}} -->
+              {{ "0.0.1" }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
